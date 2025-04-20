@@ -1,0 +1,125 @@
+/* Classı Header Olan Elemanı Stillendirme */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.header .logo {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header .nav {
+  display: flex;
+  align-items: center;
+}
+
+.header .nav li {
+  list-style: none;
+  padding: 5px;
+}
+.header .nav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+/* Header Semantik Etiketinin Stillendirmesi */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+header .logo {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav li {
+  list-style: none;
+  padding: 5px;
+}
+header nav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+/* Classı hero olan elemanı stillendir */
+.hero {
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap; /*Flex yapısı içindeki elemanlar aynı satıra sığmadığında sığmayan kısmı alt satıra atar.  */
+}
+
+.hero .text-content {
+  flex: 1;
+  padding: 10px;
+}
+.hero .text-content h1 {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero .text-content p {
+  font-size: 25px;
+  line-height: 1.8; /* Elemanın satır yüksekliğini ayarlamak için kullanılır.Bu örnekte satır yüksekliği mevcut satır yüksekiğinin 1.8 katı olmuş oldu. */
+}
+.hero .text-content button {
+  border: none;
+  padding: 8px 16px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: orange;
+  color: white;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.hero .text-content button:hover {
+  scale: 0.8;
+}
+
+.hero .image-container img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.box,
+.box-1 {
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.box {
+  background: linear-gradient(
+    to bottom,
+    #f1ba88,
+    #03a791,
+    #e9f5be,
+    red,
+    #ffa55d
+  );
+  /* linear-gradient bir elemanın arka planında doğrusal renk geçişi elde etmek için kullanılır.Bu özellik bizden ilk olarak geçişin hangi yönde olacağını ister.Bunun yanında'da hangi geçişi yapılacak renkleri ister.Renkleri ister renk adı istersekde hex code veya rgb kodu şeklinde verebiliriz. */
+}
+
+.box-1 {
+  width: 400px;
+  background: radial-gradient(ellipse, red, yellow, blue);
+  /* radial-gradient bir elemanın arka planında dairesel renk geçişi elde etmek için kullanılır.Bu özellik bizden ilk olarak geçişin hangi yönde olacağını ister.Bunun yanında'da hangi geçişi yapılacak renkleri ister.Renkleri ister renk adı istersekde hex code veya rgb kodu şeklinde verebiliriz. */
+}
