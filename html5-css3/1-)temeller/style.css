@@ -99,7 +99,8 @@ header nav li a {
 }
 
 .box,
-.box-1 {
+.box-1,
+.box-2 {
   width: 100px;
   height: 100px;
   margin: 30px;
@@ -122,4 +123,101 @@ header nav li a {
   width: 400px;
   background: radial-gradient(ellipse, red, yellow, blue);
   /* radial-gradient bir elemanın arka planında dairesel renk geçişi elde etmek için kullanılır.Bu özellik bizden ilk olarak geçişin hangi yönde olacağını ister.Bunun yanında'da hangi geçişi yapılacak renkleri ister.Renkleri ister renk adı istersekde hex code veya rgb kodu şeklinde verebiliriz. */
+}
+
+/* Text Shadow */
+.text-shadaw-example {
+  text-shadow: 50px 20px 10px #03a791;
+}
+
+.box-2 {
+  background-color: black;
+  box-shadow: 10px 5px 30px red;
+}
+
+/* *Animation */
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-100px);
+  }
+  33% {
+    transform: translateY(0);
+  }
+  66% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  33% {
+    transform: scale(1.4);
+  }
+  66% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.circle,
+.circle-1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #f1ba88;
+  margin: 100px 40px;
+}
+
+/* .circle {
+  animation: bounce 5s infinite ease;
+}
+
+.circle-1 {
+  animation: scale 2s infinite ease;
+} */
+
+/* * Grid */
+
+.grid-contaier {
+  margin-top: 40px;
+  background-color: #ffa55d;
+  padding: 5px;
+  /* display:grid ==> Grid yapısını aktif etmek için kullanılır.Grid yapısı aktif edildikten sonra grid içerisindeki satır(row) sütun (column) yapıları kullanılarak elemanlar hizalanır.Satır veya sütunların kapyalacağı alanı px veya % ile tanımlayabileceğimiz gibi fr ilede tanımlayabiliriz.fr max. alan demektir.Bu sayede grid kapsayıcısı içerisindeki alanları istediğimiz gibi bölüştürebiliriz. */
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.column-1 {
+  background-color: white;
+}
+
+.column-2 {
+  background-color: red;
+}
+
+.column-3 {
+  background-color: orchid;
+}
+
+@media (max-width: 800px) {
+  .grid-contaier {
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .grid-contaier {
+    grid-template-columns: 1fr;
+  }
 }
