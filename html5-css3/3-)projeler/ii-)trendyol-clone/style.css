@@ -1,0 +1,200 @@
+/* * Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* * Css Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* * Header */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fb4500;
+  gap: 10px;
+}
+
+header .logo {
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+header form {
+  width: 382px;
+  height: 32px;
+}
+header form input {
+  padding: 5px;
+  width: 350px;
+  height: 100%;
+  border-radius: 10px;
+}
+
+header form i {
+  color: orangered;
+  margin-left: -32px;
+  cursor: pointer;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+header nav li {
+  border-right: 1px solid white;
+  padding: 0 10px;
+}
+
+header nav .basket {
+  border: none;
+  position: relative;
+}
+header nav .basket .basket-count {
+  background-color: blue;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+header nav .basket i {
+  font-size: 24px;
+}
+
+header nav li a {
+  color: white;
+}
+
+/* * Categories */
+.categories {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 5px;
+  border-bottom: 1px solid gainsboro;
+}
+.categories li {
+  padding: 3px;
+  margin: 5px 0;
+}
+.categories li a {
+  color: gray;
+  font-weight: bold;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.categories li a:hover {
+  border-bottom: 2px solid orangered;
+}
+
+/* * Products */
+.products {
+  padding: 20px 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 10px;
+}
+.products .product-card {
+  border: 1px solid gainsboro;
+  height: auto;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.products .product-card .product-image {
+  height: 350px;
+  width: 350px;
+}
+.products .product-card .product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.products .product-card .product-banner {
+  background: linear-gradient(to right, orangered, gold);
+  text-align: center;
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+}
+.products .product-card .product-content {
+  padding: 15px;
+}
+.products .product-card .product-content .product-title {
+  font-size: 15px;
+  color: gray;
+  display: flex;
+  gap: 5px;
+  margin: 10px 0;
+}
+.products .product-card .product-content .product-title span {
+  font-weight: bold;
+  color: black;
+}
+.products .product-card .product-content .product-stars i {
+  color: gold;
+}
+.products .product-card .product-content .product-price {
+  font-size: 20px;
+  margin: 15px 0;
+  color: orangered;
+  font-weight: bold;
+}
+.products .product-card .product-content .add-to-cart {
+  text-align: center;
+  border: 1px solid orangered;
+  padding: 10px;
+  width: 100%;
+  background-color: white;
+  font-weight: bold;
+  color: orangered;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.products .product-card .product-content .add-to-cart:hover {
+  background-color: orangered;
+  color: white;
+}
+
+/* * Media Queries */
+
+@media (max-width: 1100px) {
+  nav li {
+    display: none;
+  }
+
+  header form {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 700px) {
+  header form {
+    width: 270px !important;
+  }
+  header form input {
+    width: 100%;
+  }
+}
