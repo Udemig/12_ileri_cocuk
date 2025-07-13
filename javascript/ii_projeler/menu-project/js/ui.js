@@ -7,8 +7,6 @@ const uiElements = {
 
 // Menu elemanlarını render eden fonksiyon
 const renderMenu = (menu) => {
-  // -todo: Bu fonksiyon api'dan alınan her menu elemanı için birer card oluşturmalı sonrasında bunu arayüze eklemelidir.
-
   // menu'yü dön ve her bir menü elemanı için bir kart html'i oluştur
   const menuHtml = menu
     .map(
