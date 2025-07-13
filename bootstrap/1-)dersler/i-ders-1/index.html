@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bs Ders-1</title>
+    <!-- * Bootstrap Css Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+    <!-- * Css Link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- 
+    * Bootstrap belirli avantajlar sağlamasına rağmen belirli noktalarda kısıtlar.Ör. background için hep belirli renkleri kullanabiliyoruz,boyutlandırma noktasında belirli bir sınırlandırma var,..
+
+    * Bu kısıtlamayı kendi css'imizi yazarak çözeriz.Kendi css'imiz ve bootstrap css' aynı anda çalıştırıldığında hangi css bağlantısı daha aşağıda ise o css bağlantısı daha öncelikli çalışır.
+
+
+    * Bootstrap css'i ve kendi css'imiz aynı anda çalıştırıldığında çakışan css özelliği için bizim css'imiz geçerli olsun diye css özelliğinden sonra !important  yazmamız gerekir.
+    
+    -->
+  </head>
+  <body>
+    <!-- 
+    * Bootstrap daha hızlı responsive ui'lar elde etmemizi sağlayan bir frontend kütüphanesidir.Bu kütüphane hem hızlı stillendirme hem responsive tasarım hemde component yapısı ile daha kolay geliştirme yapmamızı sağlar.
+
+    * Bootstrap still özelliklerini birer class adı altında toplar.Bu class'lardan istifade edip stillendirme yapabilmemiz için bootstrap cdn'i ile html ve bootstrap kütüphanesini bağlamamız gerekir.
+    
+    -->
+    <div
+      class="bg-danger pt-5 pe-4 pb-3 ps-2 mt-5 ms-3 me-2 mb-4 fs-1 fw-bolder text-start border border-5 border-success text-warning kapsayıcı"
+    >
+      Udemig
+    </div>
+
+    <!-- * Bootstrap Js Bağlantı -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
