@@ -81,23 +81,41 @@
     <button class="btn btn-success position-fixed top-0 end-0">Whatsapp</button>
 
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-    <!-- Breakpoint	Class infix	Dimensions
+
+    <!-- * Bootstrap Responsive Design
+     
+    Responsive tasarım günümüzde web sitelerine pc haricinde cihazlardan giriş yapıldığından dolayı bir web sitesi için önemlidir.Bu noktada bootstrap responsive tasarımı kolay bir şekilde yapmamızı sağlıyor.
+
+    Bootstrap ile hızlıca responsive arayüz oluşturmak için ilk olarak bir row classı oluşturup içerisine col-[kırılmaNoktası-birim] classına sahip elemanlar yerleştiririz.Buradaki kırılma noktaları bootstrap tarafından oluşturulmuş classlardır.Bu classlar şunlardır:
+
+    Breakpoint	Class infix	Dimensions
      X-Small	None	<576px
      Small	sm	≥576px
      Medium	md	≥768px
      Large	lg	≥992px
      Extra large	xl	≥1200px
-     Extra extra large	xxl	≥1400px -->
+     Extra extra large	xxl	≥1400px
+
+
+     Bu classlar ile media etiketine gerek kalmadan responsive tasarım oluşturabiliriz.
+
+
+     Bootstap bir satırı (row) 12br olarak kabul eder.Ve yukarıdaki ekran boyutlarında bir satır içerisinde kaç eleman yer alacağını her elemana verilen birim ile belirlememizi ister.
+
+     Ör. col-md-3 ilgili sütunun md ekranlardan (768px ve yukarıs) itibaren satır (row) içerisinde  3 birim kaplamasını sağlar.
+
+    
+    -->
 
     <div class="bg-primary m-2 p-3 row">
-      <div class="col-lg-3">Eleman-1</div>
-      <div class="col-lg-3">Eleman-2</div>
-      <div class="col-lg-3">Eleman-3</div>
-      <div class="col-lg-3">Eleman-4</div>
-      <div class="col-lg-3">Eleman-5</div>
-      <div class="col-lg-3">Eleman-6</div>
-      <div class="col-lg-3">Eleman-7</div>
-      <div class="col-lg-3">Eleman-8</div>
+      <div class="col-md-4 col-lg-3 col-xl-2">Eleman-1</div>
+      <div class="col-md-4 col-lg-3 col-xl-2">Eleman-2</div>
+      <div class="col-md-4 col-lg-3 col-xl-2">Eleman-3</div>
+      <div class="col-md-4 col-lg-3 col-xl-2">Eleman-4</div>
+      <div class="col-md-4 col-lg-3 col-xl-2">Eleman-5</div>
+      <div class="col-md-4 col-lg-3 col-xl-2">Eleman-6</div>
+      <div class="col-md-4 col-lg-3 col-xl-2">Eleman-7</div>
+      <div class="col-md-4 col-lg-3 col-xl-2">Eleman-8</div>
     </div>
 
     <!-- * Bootstrap Js Bağlantı -->
