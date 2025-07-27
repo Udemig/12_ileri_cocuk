@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fresh Food-12 İleri Çocuk</title>
+    <!-- * Bootstrap Css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+    <!-- * Css Link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- * Bootstrap class'lar sayesinde hızlıca stillendirme yapabilmemizin yanı sıra hazır component yapısı ile hem responsive hemde dinamik elemanları hızlıca oluşturmamızı sağlar. -->
+
+    <!-- * Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-white" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images /logo.png" id="logo" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link fw-bold text-dark"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-dark" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-dark" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-dark" href="#">Order</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-dark" href="#">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-dark" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2 rounded-5"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-danger rounded-4 px-1"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- * Home -->
+    <section id="home">
+      <!-- Row  -->
+      <div class="row align-items-center">
+        <!-- Text Content -->
+        <div class="col-md-6 text-start text-md-center">
+          <!-- Title -->
+          <h1 class="fw-bold">
+            Claim Best Offer On Fast <span class="text-danger">Food</span> &
+            <span class="text-danger">Restaurant</span>
+          </h1>
+
+          <!-- Description -->
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
+            quibusdam minus. Ea accusamus rem numquam.
+          </p>
+
+          <!-- Button -->
+          <button class="btn btn-danger">Our Menu</button>
+        </div>
+
+        <!-- Image -->
+        <div class="col-md-6">
+          <img
+            src="./images /image 46.png"
+            class="img-fluid"
+            alt="home-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- * Service -->
+    <section id="service">
+      <!-- Top -->
+      <div class="text-center">
+        <h5 class="text-danger">WHAT WE SERVE</h5>
+
+        <h3 class="fw-bold">Your Favourite Food Delivery Partner</h3>
+      </div>
+
+      <!-- Row -->
+      <div class="row mt-4">
+        <div class="col-lg-4 col-md-6 my-3">
+          <div class="card border-0 shadow">
+            <img src="./images /img1.png" class="img-fluid" alt="item-1" />
+
+            <div class="card-body text-center">
+              <h2 class="fw-bold">Easy To Order</h2>
+
+              <p class="lead">You only need a few steps in ordering food</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 my-3">
+          <div class="card border-0 shadow">
+            <img src="./images /img2.png" class="img-fluid" alt="item-2" />
+
+            <div class="card-body text-center">
+              <h2 class="fw-bold">Fastest Delivery</h2>
+
+              <p class="lead">Delivery that is always ontime even faster</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 my-3">
+          <div class="card border-0 shadow">
+            <img src="./images /img3.png" class="img-fluid" alt="item-3" />
+
+            <div class="card-body text-center">
+              <h2 class="fw-bold">Best Quality</h2>
+
+              <p class="lead">
+                Not only fast for us quality is also number one
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- * Bootstrap Js  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

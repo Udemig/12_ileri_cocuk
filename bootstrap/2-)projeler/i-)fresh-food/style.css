@@ -1,0 +1,22 @@
+/* * Css Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+}
+
+/* * Global Styles */
+section {
+  padding: 100px 11%;
+}
+
+#navbar {
+  padding: 0px 9%;
+}
+
+#logo {
+  width: 190px;
+}
