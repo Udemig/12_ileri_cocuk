@@ -1,0 +1,168 @@
+<mxfile host="65bd71144e">
+    <diagram id="QQPfZTwyB5ZT2G9xC4ZT" name="Page-1">
+        <mxGraphModel dx="645" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="auto">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Html -&amp;gt; Web sitesindeki elemanları oluşturmak için kullanılan bir işaretleme dili.&lt;div&gt;Css -&amp;gt; Html&#39;de oluşturulan elemaları stillendirmek için kullanılan stillendirme dili.&lt;/div&gt;&lt;div&gt;Bootstrap -&amp;gt; Bir frontend kütüphanesidir.Html,css ve js kodlarından oluşur.&lt;/div&gt;&lt;div&gt;Hem hızlı şekilde stillendirme hemde sahip olduğu componentler ile hızlı şekilde&lt;/div&gt;&lt;div&gt;arayüz elde etmemizi sağlar.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="730" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Css &amp;amp;&amp;amp; Bootstrap Karşılaştırması:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Css ile detaylı stillendirme yaparız.&lt;/div&gt;&lt;div&gt;Bootstrap&#39;de çok detaylı şekilde stillendirme&lt;/div&gt;&lt;div&gt;yapamayız fakat hızlı şekilde stillendirme yaparız.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="200" width="460" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;" parent="1" source="4" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="open with live server" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6" vertex="1" connectable="0">
+                    <mxGeometry x="0.0083" y="-3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="Html" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="360" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Web&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="360" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;" parent="1" source="8" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="link" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9" vertex="1" connectable="0">
+                    <mxGeometry x="0.0167" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="Css" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="560" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;" parent="1" source="13" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="open with live server" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="11" vertex="1" connectable="0">
+                    <mxGeometry x="0.0083" y="-3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="Html" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="700" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Web&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="700" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;" parent="1" source="17" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="link" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="15" vertex="1" connectable="0">
+                    <mxGeometry x="0.0167" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="Bootstrap" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="900" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Bootstrap css&#39;deki stilleri birer class adı altında toplar." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="900" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Grid Yapısı" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="1000" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="1130" width="360" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="endArrow=none;html=1;exitX=0.003;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.997;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="24" target="24">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="330" y="1090" as="sourcePoint"/>
+                        <mxPoint x="380" y="1040" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="" style="endArrow=none;html=1;exitX=0.003;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.997;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="121" y="1210" as="sourcePoint"/>
+                        <mxPoint x="479" y="1210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="" style="endArrow=none;html=1;exitX=0.003;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.997;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="122" y="1250" as="sourcePoint"/>
+                        <mxPoint x="480" y="1250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="" style="endArrow=none;html=1;exitX=0.003;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.997;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="121" y="1290" as="sourcePoint"/>
+                        <mxPoint x="479" y="1290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="" style="endArrow=none;html=1;exitX=0.106;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="24">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="130" y="1460" as="sourcePoint"/>
+                        <mxPoint x="158" y="1133" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="" style="endArrow=none;html=1;entryX=0.114;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.106;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="1329" as="sourcePoint"/>
+                        <mxPoint x="203" y="1130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="" style="endArrow=none;html=1;entryX=0.114;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.106;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="240" y="1329" as="sourcePoint"/>
+                        <mxPoint x="243" y="1130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="" style="endArrow=none;html=1;entryX=0.114;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.106;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="280" y="1329" as="sourcePoint"/>
+                        <mxPoint x="283" y="1130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="" style="endArrow=none;html=1;entryX=0.114;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.106;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="320" y="1330" as="sourcePoint"/>
+                        <mxPoint x="323" y="1131" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="" style="endArrow=none;html=1;entryX=0.114;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.106;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="360" y="1329" as="sourcePoint"/>
+                        <mxPoint x="363" y="1130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="" style="endArrow=none;html=1;entryX=0.114;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.106;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="397" y="1330" as="sourcePoint"/>
+                        <mxPoint x="400" y="1131" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="" style="endArrow=none;html=1;entryX=0.114;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.106;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="438.5" y="1329" as="sourcePoint"/>
+                        <mxPoint x="441.5" y="1130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="Row (12 br) -&amp;gt;row" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry y="1130" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Bootstrap css&#39;deki stilleri birer class adı altında toplar." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="920" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Column -&amp;gt; col" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="1340" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="column -&amp;gt; 4br ---&amp;gt; 3 sütun" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="1400" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="column -&amp;gt; 3br ---&amp;gt; 4 sütun" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="1480" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="column -&amp;gt; 6br ---&amp;gt; 2 sütun" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="1530" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;table style=&quot;caption-side: bottom; border-collapse: collapse; --bs-table-bg: transparent; --bs-table-accent-bg: transparent; --bs-table-striped-color: #212529; --bs-table-striped-bg: rgba(0, 0, 0, 0.05); --bs-table-active-color: #212529; --bs-table-active-bg: rgba(0, 0, 0, 0.1); --bs-table-hover-color: #212529; --bs-table-hover-bg: rgba(0, 0, 0, 0.075); width: 705px; margin-bottom: 1.5rem; color: rgb(33, 37, 41); vertical-align: top; border-color: rgb(222, 226, 230); max-width: 100%; font-size: 0.875rem; display: block; overflow-x: auto; font-family: system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: start; text-wrap-mode: wrap; background-color: rgb(255, 255, 255);&quot; class=&quot;table&quot;&gt;&lt;thead style=&quot;box-sizing: border-box; border-style: solid; border-width: 0px; vertical-align: bottom;&quot;&gt;&lt;tr style=&quot;box-sizing: border-box; border-style: solid; border-width: 0px;&quot;&gt;&lt;th style=&quot;box-sizing: border-box; text-align: -webkit-match-parent; border-top-color: inherit; border-right-color: inherit; border-bottom: 1px solid currentcolor; border-left-color: inherit; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-width: 0px; border-right-width: 0px; border-left-width: 0px; padding: 0.5rem 1.5rem 0.5rem 0px; background-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;&quot;&gt;Breakpoint&lt;/th&gt;&lt;th style=&quot;box-sizing: border-box; text-align: -webkit-match-parent; border-top-color: inherit; border-right-color: inherit; border-bottom: 1px solid currentcolor; border-left-color: inherit; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-width: 0px; border-right-width: 0px; border-left-width: 0px; padding: 0.5rem 1.5rem 0.5rem 0.5rem; background-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;&quot;&gt;Class infix&lt;/th&gt;&lt;th style=&quot;box-sizing: border-box; text-align: -webkit-match-parent; border-top-color: inherit; border-right-color: inherit; border-bottom: 1px solid currentcolor; border-left-color: inherit; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-width: 0px; border-right-width: 0px; border-left-width: 0px; padding: 0.5rem; background-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;&quot;&gt;Dimensions&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;box-sizing: border-box; border-style: solid; border-width: 0px; vertical-align: inherit;&quot;&gt;&lt;tr style=&quot;box-sizing: border-box; border-style: solid; border-width: 0px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; border-color: inherit; border-style: solid; border-width: 0px 0px 1px; padding: 0.5rem 1.5rem 0.5rem 0px; background-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;&quot;&gt;X-Small&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; border-color: inherit; border-style: solid; border-width: 0px 0px 1px; padding: 0.5rem 1.5rem 0.5rem 0.5rem; background-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;&quot;&gt;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;None&lt;/em&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; border-color: inherit; border-style: solid; border-width: 0px 0px 1px; padding: 0.5rem; background-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;&quot;&gt;&amp;lt;576px&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;box-sizing: border-box; border-style: solid; border-width: 0px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; border-color: inherit; border-style: solid; border-width: 0px 0px 1px; padding: 0.5rem 1.5rem 0.5rem 0px; background-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;&quot;&gt;Small&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; border-color: inherit; border-style: solid; border-width: 0px 0px 1px; padding: 0.5rem 1.5rem 0.5rem 0.5rem; background-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 0.875em; direction: ltr; unicode-bidi: bidi-override; color: rgb(214, 51, 132); overflow-wrap: break-word;&quot;&gt;sm&lt;/code&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; border-color: inherit; border-style: solid; border-width: 0px 0px 1px; padding: 0.5rem; background-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;&quot;&gt;≥576px&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;box-sizing: border-box; border-style: solid; border-width: 0px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; border-color: inherit; border-style: solid; border-width: 0px 0px 1px; padding: 0.5rem 1.5rem 0.5rem 0px; background-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;&quot;&gt;Medium&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; border-color: inherit; border-style: solid; border-width: 0px 0px 1px; padding: 0.5rem 1.5rem 0.5rem 0.5rem; background-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 0.875em; direction: ltr; unicode-bidi: bidi-override; color: rgb(214, 51, 132); overflow-wrap: break-word;&quot;&gt;md&lt;/code&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; border-color: inherit; border-style: solid; border-width: 0px 0px 1px; padding: 0.5rem; background-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;&quot;&gt;≥768px&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;box-sizing: border-box; border-style: solid; border-width: 0px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; border-color: inherit; border-style: solid; border-width: 0px 0px 1px; padding: 0.5rem 1.5rem 0.5rem 0px; background-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;&quot;&gt;Large&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; border-color: inherit; border-style: solid; border-width: 0px 0px 1px; padding: 0.5rem 1.5rem 0.5rem 0.5rem; background-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 0.875em; direction: ltr; unicode-bidi: bidi-override; color: rgb(214, 51, 132); overflow-wrap: break-word;&quot;&gt;lg&lt;/code&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; border-color: inherit; border-style: solid; border-width: 0px 0px 1px; padding: 0.5rem; background-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;&quot;&gt;≥992px&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;box-sizing: border-box; border-style: solid; border-width: 0px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; border-color: inherit; border-style: solid; border-width: 0px 0px 1px; padding: 0.5rem 1.5rem 0.5rem 0px; background-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;&quot;&gt;Extra large&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; border-color: inherit; border-style: solid; border-width: 0px 0px 1px; padding: 0.5rem 1.5rem 0.5rem 0.5rem; background-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 0.875em; direction: ltr; unicode-bidi: bidi-override; color: rgb(214, 51, 132); overflow-wrap: break-word;&quot;&gt;xl&lt;/code&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; border-color: inherit; border-style: solid; border-width: 0px 0px 1px; padding: 0.5rem; background-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;&quot;&gt;≥1200px&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;box-sizing: border-box; border-style: solid; border-width: 0px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; border-color: inherit; border-style: solid; border-width: 0px 0px 1px; padding: 0.5rem 1.5rem 0.5rem 0px; background-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;&quot;&gt;Extra extra large&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; border-color: inherit; border-style: solid; border-width: 0px 0px 1px; padding: 0.5rem 1.5rem 0.5rem 0.5rem; background-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 0.875em; direction: ltr; unicode-bidi: bidi-override; color: rgb(214, 51, 132); overflow-wrap: break-word;&quot;&gt;xxl&lt;/code&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; border-color: inherit; border-style: solid; border-width: 0px 0px 1px; padding: 0.5rem; background-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;&quot;&gt;≥1400px&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="1600" width="730" height="270" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

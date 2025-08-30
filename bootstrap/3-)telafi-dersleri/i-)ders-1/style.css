@@ -1,0 +1,29 @@
+.p-1 {
+  padding: 50px !important;
+}
+.p-2 {
+  padding: 70px !important;
+}
+.p-3 {
+  padding: 90px !important;
+}
+.p-4 {
+  padding: 110px !important;
+}
+.p-5 {
+  padding: 130px !important;
+}
+
+.bg-danger {
+  background-color: #e43636 !important;
+}
+
+.container-1 {
+  background-color: rgba(0, 0, 0, 0.399);
+  padding: 40px 20px;
+}
+.box {
+  width: 100px !important;
+  height: 50px !important;
+  margin: 50px 0;
+}
